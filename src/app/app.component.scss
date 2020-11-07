@@ -1,0 +1,17 @@
+$minimal_margin : 1rem;
+$full_width:100%;
+
+.wrapper {
+  margin: 1.5rem;
+  padding: 0.5em;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+table {
+  width: $full_width;
+}
+input , button {
+    margin: $minimal_margin
+}
